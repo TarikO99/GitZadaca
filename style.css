@@ -1,0 +1,154 @@
+*{
+    padding: 0%;
+    margin: 0;
+}
+.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 5px;
+  }
+  .topnav a {
+    float: right;
+    display: block;
+    color:darkgray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .active {
+    border-bottom:2px solid #ffb901;
+  }
+  .topnav a:hover {
+    border-bottom:2px solid #ffb901;
+    color: black;
+  }
+  .topnav a.active {
+    color: darkgray;
+  }
+  .topnav .search-container {
+    float: right;
+  }
+  .topnav > img{
+    height: 50px;
+    margin-right: 50px;
+  }
+  .topnav input[type=text] {
+    margin-top: 16px;
+    font-size: 15px;
+    border: none;
+    background: lightgray;
+  }
+  input:focus, textarea {
+    outline: none !important;
+}
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  .search-container{
+      display: flex;
+      justify-content: center;
+      width: 300px;
+      background: lightgray;
+      margin-left: 10px;
+      border: 1px solid #ffb901;
+      border-radius: 25px;
+  }
+  .jumbotron{
+      width: 100%;
+      height: 400px;   
+  }
+  .jumbotron > img{
+      height: 400px;
+      width: 100%;
+  }
+.content{
+    height: 300px;
+    width: 30%;
+    position: absolute;
+    top: 75px;
+    right: 50%;
+}
+ .headers{
+   margin-bottom: 20px;
+   font-size: 20px;
+   color: white;
+ }
+ .paragraphs{
+   font-size:18px;
+   margin-bottom: 35px;
+   color: white;
+ }
+.btn{
+  width: 200px;
+  height: 40px;
+  background: #ffb901;
+  border-radius: 25px;
+  border: 2px solid #ffb901;
+  color: white;
+}
+#pp{
+  position: relative;
+  left: 40px;
+}
+.apply{
+ position: relative;
+ right:50px;
+}
+.arrows{
+  display: flex;
+  position: relative;
+  bottom:250px;
+}
+.arrow2{
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.section1{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.who{
+  display: flex;
+  width: 70%;
+  font-size: 30px;
+  margin-top: 75px;
+  padding-bottom:25px;
+  color: rgb(114, 111, 111);
+  border-bottom: 2px solid rgb(114, 111, 111);
+}
+.section2{
+  display:flex;
+  justify-content: center;
+  width:100% ;
+}
+.section3{
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  height: 300px;
+}
+.heding{
+  margin-top:50px;
+  margin-bottom: 20px;
+}
+.card{
+  height: 400px;
+  margin: 20px;
+  color: rgb(114, 111, 111);
+  padding-bottom: 20px;
+  border-bottom: 15px solid rgb(185, 185, 255);
+}
+.link{
+  text-decoration: none;
+  color: #ffb901;
+}
